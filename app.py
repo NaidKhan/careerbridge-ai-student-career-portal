@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 import pymysql
-
+import os
+from dotenv import load_dotenv
+load_dotenv()
 app = Flask(__name__)
 app.secret_key = "careerbridge_secret_key"
 
@@ -9,7 +11,7 @@ def get_db():
     return pymysql.connect(
         host="127.0.0.1",
         user="root",
-        password=os.getenv("DB_PASSWORD"),,
+        password=os.getenv("DB_PASSWORD"),
         database="career_portal_db",
         cursorclass=pymysql.cursors.DictCursor,
         autocommit=False
