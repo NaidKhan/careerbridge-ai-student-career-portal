@@ -104,6 +104,20 @@ Course: Database System & Applications
 
 This project was developed for academic purposes as part of university coursework.
 
+## 📸 Application Screenshots
+
+### 1. Homepage
+![Homepage](Screenshots/homepage.png)
+
+### 2. Student Stories
+![Student Stories](Screenshots/student-stories.png)
+
+### 3. Trending Jobs
+![Trending Jobs](Screenshots/trending-jobs.png)
+
+### 4. How It Works
+![How It Works](Screenshots/how-it-works.png)
+
 ---
 
 ⭐ Thank you for visiting CareerBridgeAI!
